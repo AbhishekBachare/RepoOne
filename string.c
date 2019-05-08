@@ -3,7 +3,8 @@
 int my_strlen(char *s)
 {
    char *p = s;
-
+   int j = 0;
+   
    while (*p)
       ++p;
 
